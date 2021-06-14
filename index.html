@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script type="text/javascript">
+        function chgimg(x)
+        {
+        i1.src=x;
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <h2>On-boarding of the IEEE team</h2>
+        <img id="i1" src="candle.png"  /><br>
+        <b>Light the respective candle</b><br><br>
+        <input type="button" class="btn" value="ChiefGuest1" onclick="chgimg('l2.png')" />
+        <input type="button" class="btn" value="ChiefGuest2" onclick="chgimg('l3.png')" />
+        <input type="button" class="btn" value="ChiefGuest3" onclick="chgimg('l4.png')" />
+        <input type="button" class="btn" value="ChiefGuest4" onclick="chgimg('l5.png')" /><br>
+        <input type="reset" class="btn" value="RESET" onclick="chgimg('candle.png')" />
+    </center>
+</body>
+</html>

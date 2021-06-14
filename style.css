@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #6b9aca;
+}
+
+.candle{
+    position: absolute;
+    width: 46px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btn{
+    color: black;
+    font-size: large;
+    background-color: blue;
+}
